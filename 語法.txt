@@ -1,3 +1,35 @@
+@前置作業
+https://www.youtube.com/watch?v=IguLPa8aV-w(ffmpeg教學)
+https://aria2.github.io/(aria2載點)
+上述兩項均需加入環境變數的Path 在進階系統設定可以調
+pip install youtube-dl(安裝youtube-dl)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 --external-downloader aria2c --external-downloader-args "-x 16 -k 1M"#呼叫aria2 16線下載(加在最後面)
 youtube-dl -F (網址)
 會出現清單
