@@ -1,3 +1,6 @@
+
+#後為註解不須輸入
+指令中的()請當不存在
 @前置作業
 https://www.youtube.com/watch?v=IguLPa8aV-w(ffmpeg教學)
 https://aria2.github.io/(aria2載點)
@@ -27,10 +30,7 @@ pip install youtube-dl(安裝youtube-dl)
 
 
 
-
-
-
---external-downloader aria2c --external-downloader-args "-x 16 -k 1M"#呼叫aria2 16線下載(加在最後面)
+--external-downloader aria2c --external-downloader-args "-x 16 -k 1M" #(呼叫aria2 16線下載)(加在最後面)
 youtube-dl -F (網址)
 會出現清單
 
@@ -38,5 +38,10 @@ youtube-dl -F (網址)
 
 按照清單編號下載自己想要的
 youtube-dl -f (你要的清單標號) (網址)
+
 我個人是聲音影片分開下載 最後在使用ffmpeg合成
-ffmpeg.exe -i (影片名稱要含副檔名) -i (聲音名稱含副檔名) (指定合併後檔案名稱和格式我個人是使用mp4)
+ffmpeg.exe -i (影片名稱要含副檔名) -i (聲音名稱含副檔名) (指定合併後檔案名稱和格式我個人是使用mp4) #(檔案名稱只能英文&數字)
+
+youtube-dl --extract-audio --audio-format mp3 (播放清單網址)#記得要是公開的清單 私人清單不行
+
+youtube-dl --extract-audio --audio-format mp3 --playlist-start 3 --playlist-end 2 (播放清單網址) #(正數第三個至倒數第二個)
