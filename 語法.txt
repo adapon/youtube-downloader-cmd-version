@@ -45,3 +45,7 @@ ffmpeg.exe -i (影片名稱要含副檔名) -i (聲音名稱含副檔名) (指�
 youtube-dl --extract-audio --audio-format mp3 (播放清單網址)#記得要是公開的清單 私人清單不行
 
 youtube-dl --extract-audio --audio-format mp3 --playlist-start 3 --playlist-end 2 (播放清單網址) #(正數第三個至倒數第二個)
+
+youtube-dl -f 137+140/mp4+m4a (網址) #這是先下載然後合併影音檔 前面137代號代表是影片解析度※如何查看代號請看16線下載的下一行後面140是聲音
+
+假設要下載要登入才能看得影片 請見:https://www.jingxialai.com/3954.html #(會限、年齡限制...的影片)
