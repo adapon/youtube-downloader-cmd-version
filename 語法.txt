@@ -3,7 +3,7 @@
 指令中的()請當不存在
 @前置作業
 安裝python環境，python官網https://www.python.org/
-pip install ffmpeg(使用cmd的方式安裝，開cmd輸入此行即可，此方法與下行方法擇一即可)
+pip install ffmpeg(使用cmd的方式安裝，開cmd輸入此行即可，此方法與下行方法都必須使用)
 https://www.youtube.com/watch?v=IguLPa8aV-w(ffmpeg教學)
 https://aria2.github.io/(aria2載點)
 上述兩項均需加入環境變數的Path 在進階系統設定可以調
